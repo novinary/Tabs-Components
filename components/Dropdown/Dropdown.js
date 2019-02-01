@@ -19,6 +19,7 @@ class Dropdown {
     // Toggle the ".dropdown-hidden" class off and on
     this.content.classList.toggle('dropdown-hidden');;
     //add animation to get the dropdown to slide in and out
+    //look at the documentation
     const drop = document.querySelector('.dropdown-content');
     if (this.content.classList.contains('dropdown-hidden')) {
       TweenMax.to(drop, 1, {top: -340})
